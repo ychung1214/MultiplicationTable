@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.au.multiplicationfactsto81.MainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,11 +35,11 @@
                     android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
                     android:layout_weight="1"
-                    android:text="把籃球放下方綠色格子裡，請你再數數看，綠色區塊中總共有幾顆籃球？"
+                    android:text="請你把籃球放進下方黃色格子裡，再數數看，黃色區塊中總共有幾顆籃球呢？
+=> １（被乘數）ｘ１（乘數）＝１（積）"
                     android:textColor="#000000"
-                    android:textSize="40dp" />
+                    android:textSize="35dp" />
 
                 <TextView
                     android:id="@+id/prompt"
@@ -66,7 +67,7 @@
                 android:layout_height="0dp"
                 android:layout_margin="4dp"
                 android:layout_weight="2"
-                android:background="#ff5608"
+                android:background="#b7fcfc"
                 android:orientation="horizontal">
 
             </LinearLayout>
@@ -77,27 +78,27 @@
                 android:layout_height="0dp"
                 android:layout_margin="4dp"
                 android:layout_weight="2"
-                android:background="#00b05e"
+                android:background="#fef099"
                 android:orientation="horizontal"
                 ></LinearLayout>
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
                 android:layout_marginTop="30dp"
+                android:layout_height="20dp"
                 android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:text="1x1=1　　1x2=2　　1x3=3"
+                android:gravity="left"
+                android:text="１ｘ１＝１　１ｘ２＝２　１ｘ３＝３"
                 android:textSize="70dp" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:text="1x4=4　　1x5=5　　1x6=6"
+                android:gravity="left"
+                android:text="１ｘ４＝４　１ｘ５＝５　１ｘ６＝６"
                 android:textSize="70dp" />
 
             <TextView
@@ -105,8 +106,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:text="1x7=7　　1x8=8　　1x9=9"
+                android:gravity="left"
+                android:text="１ｘ７＝７　１ｘ８＝８　１ｘ９＝９"
                 android:textSize="70dp" />
 
         </LinearLayout>

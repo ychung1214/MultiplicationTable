@@ -31,15 +31,14 @@
                     android:text="回選單" />
 
                 <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="把小鳥放進右邊綠色格子裡，
-請你再數數看，綠色區塊中總共有幾隻小鳥？"
-                    android:textSize="20dp"
-                    android:layout_marginTop="-8dp"
-                    android:textColor="#000000"/>
+                    android:text="請你把小雞放進下方黃色格子裡，再數數看，黃色區塊中總共有幾隻小雞、幾隻腳？
+=> ２（被乘數）ｘ１（乘數）＝２（積）"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
 
                 <TextView
                     android:id="@+id/prompt"
@@ -53,34 +52,64 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/xx"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="4"
             android:background="#ffffff"
-            android:orientation="horizontal" >
+            android:orientation="vertical"
+            android:weightSum="8">
 
             <LinearLayout
                 android:id="@+id/area1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_margin="4dp"
-                android:layout_weight="1"
-                android:background="#ff5608"
-                android:orientation="vertical"></LinearLayout>
+                android:layout_weight="2"
+                android:background="#b7fcfc"
+                android:orientation="horizontal">
+
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/area2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_margin="4dp"
-                android:background="#00b05e"
-                android:orientation="vertical"
-                android:weightSum="3">
+                android:layout_weight="2"
+                android:background="#fef099"
+                android:orientation="horizontal"
+                ></LinearLayout>
 
-            </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="２ｘ１＝２　２ｘ２＝４　　２ｘ３＝６"
+                android:textSize="70dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="２ｘ４＝８　２ｘ５＝１０　２ｘ６＝１２"
+                android:textSize="70dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="２ｘ７＝14    ２ｘ８＝16　   ２ｘ９＝18"
+                android:textSize="70dp" />
+
         </LinearLayout>
-
 
     </LinearLayout>
 

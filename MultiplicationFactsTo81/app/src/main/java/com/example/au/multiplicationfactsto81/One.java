@@ -102,13 +102,10 @@ public class One extends AppCompatActivity {
 
             switch (event.getAction()) {
                 case DragEvent.ACTION_DRAG_STARTED:
-                    //prompt.append("小鳥飛阿飛\n");
                     break;
                 case DragEvent.ACTION_DRAG_ENTERED:
-                    //prompt.append("1 x 1 = 1 " + area  + "\n");
                     break;
                 case DragEvent.ACTION_DRAG_EXITED:
-                    //prompt.append("1 x 1 = 1 " + area  + "\n");
                     break;
                 case DragEvent.ACTION_DROP:
                     //prompt.append("移動: " + area  + "\n");
@@ -119,7 +116,6 @@ public class One extends AppCompatActivity {
                     newParent.addView(view);
                     break;
                 case DragEvent.ACTION_DRAG_ENDED:
-                    //prompt.append("ACTION_DRAG_ENDED: " + area  + "\n");
                 default:
                     break;
             }

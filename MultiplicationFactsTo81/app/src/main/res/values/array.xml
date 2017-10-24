@@ -12,5 +12,92 @@
         <item>@drawable/one_128</item>
         <item>@drawable/one_128</item>
     </array>
-
+    <array name="two">
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+        <item>@drawable/two_128</item>
+    </array>
+    <array name="three">
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+        <item>@drawable/three_128</item>
+    </array>
+    <array name="four">
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+        <item>@drawable/four_128</item>
+    </array>
+    <array name="five">
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+        <item>@drawable/five_128</item>
+    </array>
+    <array name="six">
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+        <item>@drawable/six_128</item>
+    </array>
+    <array name="seven">
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+        <item>@drawable/seven_128</item>
+    </array>
+    <array name="eight">
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+        <item>@drawable/eight_128</item>
+    </array>
+    <array name="nine">
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+        <item>@drawable/nine_128</item>
+    </array>
 </resources>

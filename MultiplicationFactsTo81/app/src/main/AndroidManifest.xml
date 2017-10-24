@@ -21,6 +21,31 @@
         <activity
             android:name=".One"
             android:screenOrientation="landscape" />
+        <activity
+            android:name=".two"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".three"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".four"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".five"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".six"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".seven"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".eight"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".nine"
+            android:screenOrientation="landscape" />
+
     </application>
 
 </manifest>

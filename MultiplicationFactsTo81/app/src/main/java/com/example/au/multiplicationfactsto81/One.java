@@ -51,7 +51,7 @@ public class One extends AppCompatActivity {
          }});
 
         TypedArray arrayResources = getResources().obtainTypedArray(
-                R.array.resicon);
+                R.array.one);
 
         for (int i = 0; i < arrayResources.length(); i++) {
             ImageView imageView = new ImageView(this);

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <array name="resicon">
-        <item>@drawable/maple64</item>
-        <item>@android:drawable/ic_dialog_dialer</item>
-        <item>@android:drawable/ic_dialog_email</item>
-        <item>@android:drawable/ic_dialog_info</item>
-        <item>@android:drawable/ic_dialog_map</item>
+    <array name="one">
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
+        <item>@drawable/one_128</item>
     </array>
 
 </resources>

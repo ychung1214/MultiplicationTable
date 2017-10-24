@@ -21,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.content.Intent;
+import android.util.DisplayMetrics;
 /**
  * Created by AU on 2017/10/20.
  */
@@ -29,14 +30,31 @@ public class One extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     LinearLayout area1, area2;
     TextView prompt;
+    DisplayMetrics metrics = new DisplayMetrics();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one);
 
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        DisplayMetrics metrics = getResources().getDisplayMetrics();
+        int DeviceTotalWidth = metrics.widthPixels;
+        int DeviceTotalHeight = metrics.heightPixels;
+        TextView product = (TextView)findViewById(R.id.x) ;
+        TextView product_2 = (TextView)findViewById(R.id.ba) ;
+        TextView one_1 = (TextView)findViewById(R.id.one_1);
+        TextView one_2 = (TextView)findViewById(R.id.one_2);
+        TextView one_3 = (TextView)findViewById(R.id.one_3);
+        product.setTextSize(DeviceTotalWidth/70);
+        product_2.setTextSize(DeviceTotalWidth/70);
+        one_1.setTextSize(DeviceTotalWidth/40);
+        one_2.setTextSize(DeviceTotalWidth/40);
+        one_3.setTextSize(DeviceTotalWidth/40);
 
         area1 = (LinearLayout) findViewById(R.id.area1);
         area2 = (LinearLayout) findViewById(R.id.area2);
+
 
         prompt = (TextView) findViewById(R.id.prompt);
         // make TextView scrollable
@@ -67,6 +85,8 @@ public class One extends AppCompatActivity {
 
 
     }
+
+
 
     public void onClick(View v){
         Intent i = new Intent(this,MainActivity.class);

@@ -38,7 +38,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/ba"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -48,7 +48,7 @@
                         android:textSize="50dp" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/x"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -100,28 +100,31 @@
                 ></LinearLayout>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/a"
                 android:layout_width="match_parent"
-                android:layout_marginTop="30dp"
                 android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="５ｘ１＝５　　５ｘ２＝１０　５ｘ３＝１５"
                 android:textSize="60dp" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/b"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="５ｘ４＝２０　５ｘ５＝２５　５ｘ６＝３０"
                 android:textSize="60dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/c"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="５ｘ７＝３５　５ｘ８＝４０　５ｘ９＝４５"

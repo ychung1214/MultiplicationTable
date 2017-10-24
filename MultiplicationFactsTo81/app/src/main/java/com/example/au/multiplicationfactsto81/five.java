@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import android.util.DisplayMetrics;
 /**
  * Created by AU on 2017/10/20.
  */
@@ -19,11 +21,26 @@ public class five extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     LinearLayout area1, area2;
     TextView prompt;
+    DisplayMetrics metrics = new DisplayMetrics();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_five);
 
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        DisplayMetrics metrics = getResources().getDisplayMetrics();
+        int DeviceTotalWidth = metrics.widthPixels;
+        int DeviceTotalHeight = metrics.heightPixels;
+        TextView product = (TextView)findViewById(R.id.x) ;
+        TextView product_2 = (TextView)findViewById(R.id.ba) ;
+        TextView a = (TextView)findViewById(R.id.a);
+        TextView b = (TextView)findViewById(R.id.b);
+        TextView c = (TextView)findViewById(R.id.c);
+        product.setTextSize(DeviceTotalWidth/70);
+        product_2.setTextSize(DeviceTotalWidth/70);
+        a.setTextSize(DeviceTotalWidth/45);
+        b.setTextSize(DeviceTotalWidth/45);
+        c.setTextSize(DeviceTotalWidth/45);
 
         area1 = (LinearLayout) findViewById(R.id.area1);
         area2 = (LinearLayout) findViewById(R.id.area2);

@@ -38,7 +38,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/ba"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -48,7 +48,7 @@
                         android:textSize="50dp" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/x"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -100,32 +100,35 @@
                 ></LinearLayout>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/a"
                 android:layout_width="match_parent"
                 android:layout_marginTop="30dp"
                 android:layout_height="20dp"
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="９ｘ１＝９　　９ｘ２＝１８　９ｘ３＝２７"
-                android:textSize="60dp" />
+                android:textSize="60dp"
+                android:layout_marginLeft="50dp"/>
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/b"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="９ｘ４＝３６　９ｘ５＝４５　９ｘ６＝５４"
-                android:textSize="60dp" />
+                android:textSize="60dp"
+                android:layout_marginLeft="50dp"/>
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/c"
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 android:layout_weight="1"
                 android:gravity="left"
                 android:text="９ｘ７＝６３　９ｘ８＝７２　９ｘ９＝８１"
-                android:textSize="60dp" />
+                android:textSize="60dp"
+                android:layout_marginLeft="50dp"/>
 
         </LinearLayout>
 

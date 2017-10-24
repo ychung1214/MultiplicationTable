@@ -93,11 +93,11 @@ public class One extends AppCompatActivity {
 
             String area;
             if(v == area1){
-                area = "area1";
+                //area = "area1";
             }else if(v == area2){
-                area = "area2";
+                //area = "area2";
             }else{
-                area = "unknown";
+                //area = "unknown";
             }
 
             switch (event.getAction()) {
@@ -108,7 +108,6 @@ public class One extends AppCompatActivity {
                 case DragEvent.ACTION_DRAG_EXITED:
                     break;
                 case DragEvent.ACTION_DROP:
-                    //prompt.append("移動: " + area  + "\n");
                     View view = (View)event.getLocalState();
                     LinearLayout oldParent = (LinearLayout)view.getParent();
                     oldParent.removeView(view);
